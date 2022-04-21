@@ -42,7 +42,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT MAX(c12), MIN(C12)
+SELECT K0, MAX(c12), MIN(C12)
 FROM tbl1
 GROUP BY K0
 ORDER BY K0;
