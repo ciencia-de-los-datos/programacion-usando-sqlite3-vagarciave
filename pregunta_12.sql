@@ -44,9 +44,4 @@
 --
 SELECT K0, MAX(c12), MIN(C12)
 FROM tbl1
-<<<<<<< HEAD
 GROUP BY K0
-=======
-GROUP BY K0
-ORDER BY K0
->>>>>>> 401c43ec2c8c790cdc539778b7f8cc264e80a30c
