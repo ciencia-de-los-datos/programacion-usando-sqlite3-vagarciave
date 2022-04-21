@@ -40,3 +40,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+SELECT a.K0, c16
+FROM tbl0 AS a 
+INNER JOIN tbl1 AS b
+ON a.K0 = b.K0 
+WHERE a.K0 = SUBSTR(c16,1,1)
+ORDER BY c14
